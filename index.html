@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Games Suit</title>
+</head>
+<body>
+  <header>
+    <h2>Permainan Suit Batu Gunting Kertas</h2>
+  </header>
+  <main>
+    <section class="side-left">
+      <h2>User</h2>
+      <img id="user">
+      <div class="wrapper-option">
+        <p>Pilih Jenis Suit</p>
+        <button onclick="generateSuit('cutter')">
+          <img src="./img/cutter-suit.png" alt="cutter" width="50">
+        </button>
+        <button onclick="generateSuit('rock')">
+          <img src="./img/rock-suit.png" alt="rock" width="50">
+        </button>
+        <button onclick="generateSuit('paper')">
+          <img src="./img/paper-suit.png" alt="paper" width="50">
+        </button>
+      </div>
+    </section>
+    <section id="result"></section>
+    <section class="side-right">
+      <h2>Computer</h2>
+      <img id="computer">
+    </section>
+  </main>
+  <footer>
+    Made by Ahmad Waluyo
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
